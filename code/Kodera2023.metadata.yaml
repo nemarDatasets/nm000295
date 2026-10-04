@@ -1,0 +1,82 @@
+_dataset:
+  class: Kodera2023
+  code: Kodera2023
+  doi: 10.5281/zenodo.7893846
+  interval:
+  - 0
+  - 4
+  n_subjects: 29
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 9
+  hardware: BrainVision Recorder (BrainProducts)
+  line_freq: 50.0
+  montage: standard_1020
+  sampling_rate: 500.0
+  sensors:
+  - Fz
+  - Cz
+  - Pz
+  - F3
+  - F4
+  - P3
+  - P4
+  - C3
+  - C4
+documentation:
+  country: CZ
+  data_url: https://doi.org/10.5281/zenodo.7893846
+  description: 'Left/right-hand motor-imagery EEG (University of West Bohemia): 29 subjects across two cohorts (16-channel
+    500 Hz and 9-channel 1000 Hz), 2 classes, BrainVision format.'
+  doi: 10.5281/zenodo.7893846
+  institution: University of West Bohemia
+  investigators:
+  - Jakub Kodera
+  - Roman Moucek
+  - Pavel Moutner
+  - Pavel Mochura
+  - Josef Yassin Saleh
+  - Petr Bruha
+  - Jana Solcova
+  - Lukas Vareka
+  - Pavel Snejdar
+  keywords:
+  - motor imagery
+  - EEG
+  - BCI
+  - brain-computer interface
+  - left hand
+  - right hand
+  license: CC-BY-4.0
+  publication_year: 2023
+  repository: Zenodo
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  study_design: Cue-based single-class left- or right-hand motor imagery; each recording is one class, with the imagery cue
+    onset marked by the S 1 BrainVision stimulus marker.
+  trial_duration: 4.0
+file_format: BrainVision
+participants:
+  health_status: healthy
+  n_subjects: 29
+  species: homo sapiens
+runs_per_session: 4
+sessions_per_subject: 1
+tags:
+  modality:
+  - motor
+  pathology:
+  - healthy
+  type:
+  - Motor Imagery

@@ -1,0 +1,45 @@
+{
+    "Name": "Kodera2023",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Jakub Kodera",
+        "Roman Moucek",
+        "Pavel Moutner",
+        "Pavel Mochura",
+        "Josef Yassin Saleh",
+        "Petr Bruha",
+        "Jana Solcova",
+        "Lukas Vareka",
+        "Pavel Snejdar"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.5281/zenodo.7893846"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "EEG",
+        "BCI",
+        "brain-computer interface",
+        "left hand",
+        "right hand"
+    ],
+    "DatasetDOI": "doi:10.5281/zenodo.7893846",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.5281/zenodo.7893846",
+            "URL": "https://doi.org/10.5281/zenodo.7893846"
+        }
+    ],
+    "PublicationYear": 2023
+}
