@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jakub Kodera": {},
+    "Roman Moucek": {},
+    "Pavel Moutner": {},
+    "Pavel Mochura": {},
+    "Josef Yassin Saleh": {},
+    "Petr Bruha": {},
+    "Jana Solcova": {},
+    "Lukas Vareka": {},
+    "Pavel Snejdar": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.7893846",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000295",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000295",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Kodera2023",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "799 MB (88 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A left/right-hand motor imagery EEG dataset recorded at the University of West Bohemia from 29 healthy participants. Cue-based single-class imagery trials of 4 s were recorded in 4 runs per session using BrainVision hardware. The data are provided in BIDS format with HED event annotations and are intended for brain-computer interface research and benchmarking via MOABB.",
+  "methods_description": "EEG was recorded with BrainVision Recorder (BrainProducts) at 500 Hz from 9 channels (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4) placed according to the standard 10-20 montage. Participants performed cue-based left- or right-hand motor imagery, with each recording containing a single class and the cue onset marked by a stimulus marker. Each session comprised 4 runs with a 4 s trial interval, and the line frequency was 50 Hz.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "left hand"
+    },
+    {
+      "term": "right hand"
+    }
+  ],
+  "source_hash": "6d150a4635222cc30c2c23f026f17d810daa9d13b9ff68d78ec299ed0283adfe"
+}
