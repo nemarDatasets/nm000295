@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Kodera2023: Left/right-hand motor-imagery EEG dataset",
+  "description": "A left/right-hand motor-imagery EEG dataset from 29 healthy participants recorded at the University of West Bohemia. Participants performed cue-based, single-class imagery of left- or right-hand movement across four runs in one session, with a 4 s trial interval. Data were recorded in BrainVision format and re-released in BIDS format with HED event annotations via MOABB, for brain-computer interface research.",
+  "methods_description": "EEG was recorded with BrainVision Recorder (BrainProducts) using electrodes placed according to the standard 10-20 montage (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4 in the 9-channel configuration) at a 500 Hz sampling rate. Each recording consisted of one imagery class (left or right hand), with the visual cue onset marked by a BrainVision stimulus marker. Trials were 4 s long and the protocol was offline.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jakub Kodera": {},
     "Roman Moucek": {},
@@ -12,6 +17,31 @@
     "Lukas Vareka": {},
     "Pavel Snejdar": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "left hand"
+    },
+    {
+      "term": "right hand"
+    },
+    {
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.7893846",
@@ -39,14 +69,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Kodera2023",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "799 MB (88 files)"
   ],
@@ -54,32 +81,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A left/right-hand motor imagery EEG dataset recorded at the University of West Bohemia from 29 healthy participants. Cue-based single-class imagery trials of 4 s were recorded in 4 runs per session using BrainVision hardware. The data are provided in BIDS format with HED event annotations and are intended for brain-computer interface research and benchmarking via MOABB.",
-  "methods_description": "EEG was recorded with BrainVision Recorder (BrainProducts) at 500 Hz from 9 channels (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4) placed according to the standard 10-20 montage. Participants performed cue-based left- or right-hand motor imagery, with each recording containing a single class and the cue onset marked by a stimulus marker. Each session comprised 4 runs with a 4 s trial interval, and the line frequency was 50 Hz.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "left hand"
-    },
-    {
-      "term": "right hand"
-    }
-  ],
-  "source_hash": "6d150a4635222cc30c2c23f026f17d810daa9d13b9ff68d78ec299ed0283adfe"
+  "source_hash": "0ebe54b03860b2430529f8c173e2d56d79c2f18e8b2125558eeee6ffebe1e76c"
 }
