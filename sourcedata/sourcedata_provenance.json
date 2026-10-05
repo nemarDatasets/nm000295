@@ -1,1 +1,537 @@
-../.git/annex/objects/fZ/gf/SHA256E-s16445--f563dc641718c9bd6df12bfd82a61bae465d2b832cd5ec87e9fb350c96fd9787.json/SHA256E-s16445--f563dc641718c9bd6df12bfd82a61bae465d2b832cd5ec87e9fb350c96fd9787.json
+{
+ "dataset": "nm000295",
+ "moabb_class": "Kodera2023",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.Kodera2023.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/Kodera2023/MNE-kodera2023-data/data",
+ "license": "CC-BY-4.0",
+ "doi": "10.5281/zenodo.7893846",
+ "naming": "upstream_filenames_restored",
+ "n_files": 87,
+ "total_bytes": 295085,
+ "files": [
+  {
+   "file": "01_12_2020/1z01122020lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "42fec0723c494eee1a9625e37197bd4c0b2561274a532b2d6a97c1b176b5aacd",
+   "subject": "1"
+  },
+  {
+   "file": "01_12_2020/1z01122020lh2.vhdr",
+   "bytes": 3664,
+   "sha256": "574490cad87dd6ec635f60fec2abd499c27c155c7b4be42878fb4c89aedca0c5",
+   "subject": "1"
+  },
+  {
+   "file": "01_12_2020/1z01122020rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "cce66b899711a7243759bf3522a222c9466c22a1310e6da76087e0910647dd2e",
+   "subject": "1"
+  },
+  {
+   "file": "01_12_2020/1z01122020rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "7b07c09036ed306c05ea5ee4b5f66050a92fe4b3ecadadc9cfd5feda41447fa1",
+   "subject": "1"
+  },
+  {
+   "file": "01_12_2020/2z01122020lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "8a1e49abbf4060375a6e3aa11e887b6d48e9335d1d0f575b49f406bf8d260e38",
+   "subject": "2"
+  },
+  {
+   "file": "01_12_2020/2z01122020lh2.vhdr",
+   "bytes": 3664,
+   "sha256": "fe16247275a940da0b1ee584ab36d8ea5b1f64ff289299a7723521f241357c49",
+   "subject": "2"
+  },
+  {
+   "file": "01_12_2020/2z01122020rh1.vhdr",
+   "bytes": 3664,
+   "sha256": "074459e85c6a771c0294496d364323a5c2ea1c925a7a508a4e773d7f65dfa33e",
+   "subject": "2"
+  },
+  {
+   "file": "01_12_2020/2z01122020rh2.vhdr",
+   "bytes": 3664,
+   "sha256": "3d19287c93ba83f1c6fe28f4b0d5261ea5fd0ecb324644020b9a7952d499711b",
+   "subject": "2"
+  },
+  {
+   "file": "02_09_2021/HR_02092021_03_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3172,
+   "sha256": "df9e4e58307792e5254ed319bc73853d16b6a3675c61ef7a482f7045e5e1589b",
+   "subject": "3"
+  },
+  {
+   "file": "02_09_2021/HR_02092021_03_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3174,
+   "sha256": "fc6a4b3a66216b9b3ed345d2361a5b62ef94cef5772fe8251959ff95591eee81",
+   "subject": "3"
+  },
+  {
+   "file": "02_09_2021/HR_02092021_03_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "232308e9ab0d2b209ed288c6a809d649b91d7e1a58e5357b3c98edbfe6ec5979",
+   "subject": "3"
+  },
+  {
+   "file": "03_04_2023/1m03042023lh1.vhdr",
+   "bytes": 3108,
+   "sha256": "3a9b20f835e12c569fb51ae2daaedd2e0aa98e9fccc1ba485a0c80832eaeabd6",
+   "subject": "4"
+  },
+  {
+   "file": "03_04_2023/1m03042023rh1.vhdr",
+   "bytes": 3108,
+   "sha256": "1202912320c5789d5b7cfa642e3a93c35db046b5cca58f5ae3086a469026e570",
+   "subject": "4"
+  },
+  {
+   "file": "03_04_2023/2m03042023lh1.vhdr",
+   "bytes": 3108,
+   "sha256": "49b49978002b312c9295da97267cd32f000f5475f964187d55c6683079437895",
+   "subject": "5"
+  },
+  {
+   "file": "03_04_2023/2m03042023rh1.vhdr",
+   "bytes": 3108,
+   "sha256": "c2636b70d90b897230b21b5a63b2d3047583c95c50bbc1b5bb43f433691f56c4",
+   "subject": "5"
+  },
+  {
+   "file": "03_04_2023/3m03042023lh1.vhdr",
+   "bytes": 3108,
+   "sha256": "8809592b486af9e8a9039a062682c2d4a13416f83c3544b9e22d775a52a4b159",
+   "subject": "6"
+  },
+  {
+   "file": "03_04_2023/3m03042023rh1.vhdr",
+   "bytes": 3108,
+   "sha256": "3f34b3a007352af6101594648d349c9ba6d10fc8a0790a05ab31e90fb8dca775",
+   "subject": "6"
+  },
+  {
+   "file": "03_04_2023/4m03042023lh1.vhdr",
+   "bytes": 3108,
+   "sha256": "341b730149a028db2410f4885852dd46a7e80ed660d2ee79d91bf82981f7f4fb",
+   "subject": "7"
+  },
+  {
+   "file": "03_04_2023/4m03042023rh1.vhdr",
+   "bytes": 3108,
+   "sha256": "3a3185750eb482b9d357a2ce3557f3ac314d657e72b1480dc788962077dc4d0a",
+   "subject": "7"
+  },
+  {
+   "file": "03_04_2023/5m03042023lh1.vhdr",
+   "bytes": 3108,
+   "sha256": "971f332317a25093de54da42314a0a5ce0b836e13e7e93351881c30f81c65285",
+   "subject": "8"
+  },
+  {
+   "file": "03_04_2023/5m03042023rh1.vhdr",
+   "bytes": 3108,
+   "sha256": "435e97e8f246d24d476684c31238225947ec83448ef7f30430baf0e30abf7394",
+   "subject": "8"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_09_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "7fe7f5754c60344902c4207e549c3668eaf2901f41fa9ff49e47dfd5e2bdb99c",
+   "subject": "9"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_09_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3168,
+   "sha256": "ddd385f55f9f749a40e9159ef249ce5a6ed2d068e41909d1569150e545dcbcc5",
+   "subject": "9"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_10_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3172,
+   "sha256": "37e6933422a2b2b38aa114e86f68d50a285906f7a1d04140543fb6ed20937714",
+   "subject": "10"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_10_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3174,
+   "sha256": "83433032b25376d6df5a0cb04c0bbf011dadd0ee306769c204cd32b19159dcfa",
+   "subject": "10"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_10_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3166,
+   "sha256": "b85f78ec3f87a1c7e89e8919441ab10fc2dae893b46d4e4c3fb6db84e76d7686",
+   "subject": "10"
+  },
+  {
+   "file": "07_10_2021/HR_07102021_10_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "fb433d9027c6b5dd2555e7ec5de5f4ff6cdbdb523dfc273f986b0b1231619323",
+   "subject": "10"
+  },
+  {
+   "file": "10_12_2020/1m10122020lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "6b3b728b59b6e471bdd0c3a98fc3c7d072f2252ff1cad55f25c899b31c86dfdc",
+   "subject": "11"
+  },
+  {
+   "file": "10_12_2020/1m10122020lh2.vhdr",
+   "bytes": 3662,
+   "sha256": "e76b60034ece4e090492a19fdae90978521f6e3e884ace8927a097f414cc912a",
+   "subject": "11"
+  },
+  {
+   "file": "10_12_2020/1m10122020rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "d1c6848e2811c790fd97e0603e90b0fba292fc84657bd3c1ea50442eca093ef9",
+   "subject": "11"
+  },
+  {
+   "file": "10_12_2020/1m10122020rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "1c8eac45c955caf9b6b3f0e5c3b561ef2ba6b4ff6ec6083fc97317e2c27533a2",
+   "subject": "11"
+  },
+  {
+   "file": "10_12_2020/2z10122020lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "5629dc6a365807799ddbf8cb0e26d2fa2a2eed0bad42935150e14b184daa1fe4",
+   "subject": "12"
+  },
+  {
+   "file": "10_12_2020/2z10122020lh2.vhdr",
+   "bytes": 3662,
+   "sha256": "801b18e372932973d529236bf245936827ad7830852a6036ba06b3cbac3e7ce6",
+   "subject": "12"
+  },
+  {
+   "file": "10_12_2020/2z10122020rh1.vhdr",
+   "bytes": 3664,
+   "sha256": "c68d967efae95fe079b0a58ddd6c62bfa677f1c449b28adb458a0527e41492e3",
+   "subject": "12"
+  },
+  {
+   "file": "10_12_2020/2z10122020rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "35f4a4e0f03f5ded6d9e951443a4da89ac7c8a4b3856420dd22274e2e6687fa4",
+   "subject": "12"
+  },
+  {
+   "file": "14_01_2021/1m14012021lh1.vhdr",
+   "bytes": 3663,
+   "sha256": "6c49f1beb933580bfdac982560ae2506a4bb0f34b85f3d3a106e6a90b2304c35",
+   "subject": "13"
+  },
+  {
+   "file": "14_01_2021/1m14012021rh1.vhdr",
+   "bytes": 3663,
+   "sha256": "cf1578f3450d9df1526dedd404e1d9d449d3a5946a1eb88d1fa7d1eb34ca0552",
+   "subject": "13"
+  },
+  {
+   "file": "14_01_2021/2m14012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "962ab5d50f86fd84ab3c765f4bdc7deb07eba4520099182e9b24272964280e13",
+   "subject": "14"
+  },
+  {
+   "file": "14_01_2021/2m14012021rh1.vhdr",
+   "bytes": 3664,
+   "sha256": "273f96f18f87cd475935884ce44e4eedac3a4c14719506c4dfd5d87042fe7abe",
+   "subject": "14"
+  },
+  {
+   "file": "14_01_2021/3z14012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "9db7552d066ab8a0290e9dfe25db04472799cae1df71fabe6de158dcf8af3680",
+   "subject": "15"
+  },
+  {
+   "file": "14_01_2021/3z14012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "522169c9e052badac47d717f5e0dee0dddda9b0d42c3eaf00a5cff7991b6a350",
+   "subject": "15"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_12_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3209,
+   "sha256": "a45ea68d02cfa5b56e8741ffee74129a87790db251290fb280d1dc4b8a9b9d6b",
+   "subject": "16"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_12_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3172,
+   "sha256": "f54dbb7d0413f4906e4ddbfa234b00fd20b83b817b66abb7962144c3ec3bf6fc",
+   "subject": "16"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_12_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3166,
+   "sha256": "b58350c6d44fc756073c82144c6a1795e056fdd8e970e16c37ecb1fc8f01e00b",
+   "subject": "16"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_12_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3168,
+   "sha256": "ee26be20a8f2a3c0959e089ab3ff914dc892afe1a4526360f9ab78f7c438480a",
+   "subject": "16"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_13_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3170,
+   "sha256": "112e1f9adbfc116385e9e5b5e61619f3f1b403fda8d3da5ef9056a7e65d204cd",
+   "subject": "17"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_13_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3260,
+   "sha256": "a4b05b56347d1344c987b7dee54978ebfdc6acaff6ceb255c7cef5564d468360",
+   "subject": "17"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_13_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3254,
+   "sha256": "cc6fa04e8ad2ba33bcebfbd2e232d4c9ba5803db8e5b76ee9f3c67347f411d11",
+   "subject": "17"
+  },
+  {
+   "file": "14_10_2021/HR_14102021_13_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3168,
+   "sha256": "ac6fbfde1c2f47f58da7e88d5bbeb04fd390f3bbfed2dcd778233a3e1360adac",
+   "subject": "17"
+  },
+  {
+   "file": "21_01_2021/1m21012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "0cd184fc6197b53cbf0a65a9aa664264c83f656fee59564f623cd8a85d45ea09",
+   "subject": "18"
+  },
+  {
+   "file": "21_01_2021/1m21012021lh2.vhdr",
+   "bytes": 3662,
+   "sha256": "581243a558b59c2ef295fd30c8c0dd29cbd75063959b5986fd7adc5d1ee8a98b",
+   "subject": "18"
+  },
+  {
+   "file": "21_01_2021/1m21012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "9cd2b6fd0fb134324a618ecf7e03e6b1a0a054fa04989110f87682838e57b370",
+   "subject": "18"
+  },
+  {
+   "file": "21_01_2021/1m21012021rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "f19c4e894af28df476c025d4f9d1f42f054099286834c084ed94b60881e3143a",
+   "subject": "18"
+  },
+  {
+   "file": "21_01_2021/2z21012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "2bc4d3ea810d3126d62149edef0aae66b90d6e15605fb36d0ff3eebf928818e3",
+   "subject": "19"
+  },
+  {
+   "file": "21_01_2021/2z21012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "e5d8c9b84346e8e1405a0f48201fcfa62cbc4fe22ad9cb83e1ed57bcd6483d63",
+   "subject": "19"
+  },
+  {
+   "file": "21_01_2021/3z21012021lh2.vhdr",
+   "bytes": 3662,
+   "sha256": "692e1d08abc8d3f018685e01b4079a0019adfdb8d24d68ff5a819b00f7d2b700",
+   "subject": "20"
+  },
+  {
+   "file": "21_01_2021/3z21012021rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "58613e89a9194b9892adaa1b873d4cab1e7a41d65833aed42fed84b36fb1895c",
+   "subject": "20"
+  },
+  {
+   "file": "21_01_2021/4z21012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "d1f1c09df605e4ec0b51873d9de48b384063564edc2a7996b0a3677fec7fe60e",
+   "subject": "21"
+  },
+  {
+   "file": "21_01_2021/4z21012021lh2.vhdr",
+   "bytes": 3662,
+   "sha256": "e2937f2a106ab5041489ed7d1e08f8911cfd32de84596b559de16bcb9a0fd8b7",
+   "subject": "21"
+  },
+  {
+   "file": "21_01_2021/4z21012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "99d26d1b600c059b08cf0b54a39dbf0e6f8c4540898ffd4563403f9b58b55cf7",
+   "subject": "21"
+  },
+  {
+   "file": "21_01_2021/4z21012021rh2.vhdr",
+   "bytes": 3662,
+   "sha256": "d3104175716df79be4ee7f0a32ca47be7765a6f57f8d9e9e2c5e4d76797a098c",
+   "subject": "21"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_04_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3172,
+   "sha256": "c89fd86773b47a20d6458c0686fd140df36eb4568b0d06acd0cd9af02cdfa044",
+   "subject": "22"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_04_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3172,
+   "sha256": "ef57314e852559eb5418b8356dd37fdfd00157e502d80d5f662a8677ae9de1f6",
+   "subject": "22"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_04_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "cd3550e390e47634646ebe27f0360bfefdc0f3a092350ed3e2444ae1756eeb60",
+   "subject": "22"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_04_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "a9942985380b349f1c6c6de67a795fb49ac70183fc6cd2ee311ca3763cc1ddb0",
+   "subject": "22"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_05_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3170,
+   "sha256": "96d2dc1f88e90c7ada4f11871a7505ed819d089193252909dc78ea2c7aa213b3",
+   "subject": "23"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_05_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3174,
+   "sha256": "624f3405ec4bd08f10fb1aa6ac16ea2ea0f16f2617b8610c1b89eeec1fc6f9de",
+   "subject": "23"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_05_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "6b8a97900bec8fb0fe3108ae0c719bbb648be55f384860375c7da9ae3666a8db",
+   "subject": "23"
+  },
+  {
+   "file": "23_09_2021/HR_23092021_05_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "e24fd4183ba1770f07b5a6e691226e0d8dd95dddb60eb1d1f85ea8acae383e11",
+   "subject": "23"
+  },
+  {
+   "file": "28_01_2021/1z28012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "c076236f4eda677aedc6dc8a84a8f67ccc9455e923b4aca5163209b62c101ba4",
+   "subject": "24"
+  },
+  {
+   "file": "28_01_2021/1z28012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "209334b3b4788cbf52e47cf46c3ba74ba641718bcb5bb6c1be3bfaabb633591a",
+   "subject": "24"
+  },
+  {
+   "file": "28_01_2021/2z28012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "886e22507e35bfab2c151fe449069a220044a67891ff2692cd905bc136ac894a",
+   "subject": "25"
+  },
+  {
+   "file": "28_01_2021/2z28012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "1645127e8d82eabfc9e0a7aac8bc609feece7b022ff90bd229f6b3c04ac41d18",
+   "subject": "25"
+  },
+  {
+   "file": "28_01_2021/3z28012021lh1.vhdr",
+   "bytes": 3662,
+   "sha256": "1de17dbdfad8d38e061a6d7421e7c77c421b10f56fecdb30df7dd16e8fb3b5da",
+   "subject": "26"
+  },
+  {
+   "file": "28_01_2021/3z28012021rh1.vhdr",
+   "bytes": 3662,
+   "sha256": "fe443bb7ba60ce93603946df4d6bc3a821e56768c1c786d1ac40f6c6816a7d22",
+   "subject": "26"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_06_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3170,
+   "sha256": "6938a00bccd1c9523d0ff7cfcb295ce54744ce58df30a42290b0380d9d3281c2",
+   "subject": "27"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_06_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3174,
+   "sha256": "6d84e9f1cf1912c908362c53db4dd37ff03d9cc15d64ea662a238ed6f15811af",
+   "subject": "27"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_06_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "442936d055e2fc8c7f510e5963809c2dd66f102c6793ef0925af5e3749c2040f",
+   "subject": "27"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_06_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "f0164e43a6763d7c14c1b3791db23405186144416b2069e0b439bb4ba975a32f",
+   "subject": "27"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_07_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3170,
+   "sha256": "b4ffa6c2025a9b8422e51d936d05220d9e41b0972e7a2ecda37ede35e44524da",
+   "subject": "28"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_07_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3172,
+   "sha256": "b937abacd9c2e94a66d51283da36dc2e2a4b1a7cf88549b54c7813f26084c39a",
+   "subject": "28"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_07_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "845082f6a7fd7f2d7b997622087b44fb3ec3ac5cc0e33a7a3a7c3192e6a72ed7",
+   "subject": "28"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_07_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "0c082add2aad791e888203b997c36d341fd62cfcf19898a8bc152527a1a3c06e",
+   "subject": "28"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_08_bez_vibratoru_s_haptikou_leva.vhdr",
+   "bytes": 3172,
+   "sha256": "c5db0f796f6af7d88c8c52f6c9a38ea659cb54dbe0767ce8ce0e2f19e0731657",
+   "subject": "29"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_08_bez_vibratoru_s_haptikou_prava.vhdr",
+   "bytes": 3174,
+   "sha256": "554e633bf57603d1501c58b97903555ccf63d0bbda2041ab0c4d88c1a21e4261",
+   "subject": "29"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_08_s_vibratory_s_haptikou_leva.vhdr",
+   "bytes": 3168,
+   "sha256": "51d75812dcd32d9375f0bac512740316fbe0bbe9501ff8ac1d3cafb8044b401e",
+   "subject": "29"
+  },
+  {
+   "file": "30_09_2021/HR_30092021_08_s_vibratory_s_haptikou_prava.vhdr",
+   "bytes": 3170,
+   "sha256": "32bdd70300ed4e0b962e385bd7ccb2e3768d1d689592bbdae133f8d86160aba0",
+   "subject": "29"
+  }
+ ]
+}
