@@ -1,5 +1,5 @@
 {
-    "Name": "Kodera2023",
+    "Name": "Kodera2023: Left/right-hand motor-imagery EEG dataset",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -41,5 +41,8 @@
             "URL": "https://doi.org/10.5281/zenodo.7893846"
         }
     ],
-    "PublicationYear": 2023
+    "PublicationYear": 2023,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
