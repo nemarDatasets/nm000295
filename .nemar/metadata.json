@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kodera2023: Left/right-hand motor-imagery EEG dataset",
-  "description": "A left/right-hand motor-imagery EEG dataset recorded at the University of West Bohemia from 29 healthy participants performing cue-based single-class imagery of left or right hand movement. Recordings were acquired with BrainVision hardware in four runs per session and annotated with HED tags. This BIDS re-release was produced via MOABB from the original Zenodo deposit, for brain-computer interface research.",
-  "methods_description": "Participants performed cue-based left- or right-hand motor imagery with visual cues, with each recording containing a single class and a 4 s trial interval. EEG was recorded with BrainVision Recorder (BrainProducts) at 500 Hz from 9 channels (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4) in the standard 10-20 montage, with 50 Hz line frequency. Each session had 4 runs.",
+  "description": "A left/right-hand motor-imagery EEG dataset from 29 healthy participants recorded at the University of West Bohemia for brain-computer interface research. Participants performed cue-based, single-class imagery of left- or right-hand movement across four runs in one session. The data are re-released in BIDS format with HED event annotations via MOABB.",
+  "methods_description": "EEG was recorded with BrainVision Recorder (BrainProducts) using the standard 10-20 montage. The README gives 9 channels (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4) sampled at 500 Hz, while its description mentions two cohorts (16-channel 500 Hz and 9-channel 1000 Hz). Each recording is one imagery class, with 4 s trials and the cue onset marked by a stimulus marker. Line frequency was 50 Hz.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -19,13 +19,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -33,14 +29,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Electroencephalography",
+      "term": "Imagery, Psychotherapy",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
     },
     {
-      "term": "Imagination",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
+      "term": "motor imagery"
+    },
+    {
+      "term": "left hand"
+    },
+    {
+      "term": "right hand"
     }
   ],
   "related_identifiers": [
