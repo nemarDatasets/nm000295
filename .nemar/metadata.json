@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kodera2023: Left/right-hand motor-imagery EEG dataset",
-  "description": "A left/right-hand motor-imagery EEG dataset from 29 healthy participants recorded at the University of West Bohemia. Participants performed cue-based, single-class imagery of left- or right-hand movement across four runs in one session, with a 4 s trial interval. Data were recorded in BrainVision format and re-released in BIDS format with HED event annotations via MOABB, for brain-computer interface research.",
-  "methods_description": "EEG was recorded with BrainVision Recorder (BrainProducts) using electrodes placed according to the standard 10-20 montage (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4 in the 9-channel configuration) at a 500 Hz sampling rate. Each recording consisted of one imagery class (left or right hand), with the visual cue onset marked by a BrainVision stimulus marker. Trials were 4 s long and the protocol was offline.",
+  "description": "A left/right-hand motor-imagery EEG dataset recorded at the University of West Bohemia from 29 healthy participants performing cue-based single-class imagery of left or right hand movement. Recordings were acquired with BrainVision hardware in four runs per session and annotated with HED tags. This BIDS re-release was produced via MOABB from the original Zenodo deposit, for brain-computer interface research.",
+  "methods_description": "Participants performed cue-based left- or right-hand motor imagery with visual cues, with each recording containing a single class and a 4 s trial interval. EEG was recorded with BrainVision Recorder (BrainProducts) at 500 Hz from 9 channels (Fz, Cz, Pz, F3, F4, P3, P4, C3, C4) in the standard 10-20 montage, with 50 Hz line frequency. Each session had 4 runs.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,16 +25,17 @@
       "term": "motor imagery"
     },
     {
+      "term": "brain-computer interface"
+    },
+    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "left hand"
-    },
-    {
-      "term": "right hand"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "Imagination",
@@ -75,14 +76,16 @@
     "eeg"
   ],
   "sizes": [
-    "799 MB (88 files)"
+    "799 MB (176 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
+    ".vhdr",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "0ebe54b03860b2430529f8c173e2d56d79c2f18e8b2125558eeee6ffebe1e76c"
+  "source_hash": "19445fa689126019aa475c1305b8525bf61dcbd240c2c19ec0b338a22f25347b"
 }
