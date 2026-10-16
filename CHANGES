@@ -1,0 +1,5 @@
+1.0.1 2026-10-16
+  - sourcedata: added the data (.eeg) and marker (.vmrk) file each header names (DataFile, MarkerFile) for the 87 BrainVision headers (<date>/<run>.vhdr) of the labelled runs already in sourcedata/
+    (174 files, 2,301,290,634 bytes), unchanged from the Zenodo release 10.5281/zenodo.7893847 (members data/<date>/... of the archive data.zip).
+    The MOABB loader (moabb.datasets.Kodera2023) needs them to read a recording from this deposit.
+    No existing file changed; the BIDS tree is unchanged.
